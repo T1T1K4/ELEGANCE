@@ -1,37 +1,88 @@
 # ELEGANCE
 
-Um projeto incrivel pra gerenciar suas tarefas do dia a dia de forma elegante e eficiente!
+## Descrição
+ELEGANCE é uma aplicação web moderna desenvolvida para gerenciamento eficiente de tarefas e projetos. Com foco em usabilidade e design minimalista, oferece uma experiência intuitiva para organização pessoal e profissional.
 
-## Sobre o Projeto
+## Características
+- Interface responsiva e adaptável a diferentes dispositivos
+- Sistema de autenticação seguro
+- Sincronização em tempo real
+- Design minimalista e elegante
+- Visualização organizada de tarefas e projetos
+- Suporte a múltiplos usuários
 
-ELEGANCE é uma aplicação web moderna que te ajuda a organizar suas tarefas de um jeito super pratico. Com uma interface bonita e intuitiva, você consegue gerenciar suas atividades sem complicação.
+## Requisitos Técnicos
+- Node.js (versão 18 ou superior)
+- npm ou yarn
+- Navegador moderno com suporte a ES6+
 
-## Funcionalidades Principais
+## Instalação
 
-- ✨ Interface moderna e responsiva
-- 📱 Funciona em qualquer dispositivo
-- 🔄 Sincronização em tempo real
-- 🎨 Design elegante e minimalista
-- 📊 Visualização clara das suas tarefas
+1. Clone o repositório:
+```bash
+git clone https://github.com/T1T1K4/ELEGANCE.git
+```
 
-## Como Usar
+2. Instale as dependências:
+```bash
+cd ELEGANCE
+npm install
+```
 
-1. Clone o repositorio
-2. Instale as dependencias
-3. Execute o projeto
-4. Pronto! Agora é só começar a usar
+3. Configure as variáveis de ambiente:
+```bash
+cp .env.example .env
+```
+
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
 ## Tecnologias Utilizadas
-
-- React
+- React 18
 - TypeScript
 - Tailwind CSS
 - Vite
+- Node.js
+- Express.js
+- MongoDB
+
+## Estrutura do Projeto
+```
+ELEGANCE/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── styles/
+│   └── utils/
+├── public/
+└── tests/
+```
 
 ## Contribuição
+Contribuições são bem-vindas! Por favor, leia nosso guia de contribuição antes de submeter pull requests.
 
-Sinta-se a vontade pra contribuir com o projeto! Todas as contribuições são bem-vindas.
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
 ## Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## Contato
+Para suporte ou dúvidas, entre em contato através do email: [seu-email@exemplo.com]
+
+## Agradecimentos
+- [Lista de agradecimentos]
+- [Contribuidores]
+## Images
+
+![image](https://github.com/user-attachments/assets/094eb5da-5716-406b-9c7b-207be3d83be8)
+![image](https://github.com/user-attachments/assets/41d90b59-9193-4079-a94d-e7ebbca293f8)
+![image](https://github.com/user-attachments/assets/ea2d6b77-a99c-4229-a1a3-5ac22233c5f5)
+
+
